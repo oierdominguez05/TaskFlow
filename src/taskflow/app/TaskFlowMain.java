@@ -45,7 +45,7 @@ public class TaskFlowMain {
 
 		// 4. Cargar solicitudes iniciales desde CSV
 		System.out.println("\nCargando lote de solicitudes iniciales...");
-		final var aceptadas = GestorFicheros.cargarSolicitudesCsv("src/solicitudes_100.csv", gestorCola);
+		final var aceptadas = GestorFicheros.cargarSolicitudesCsv("src/ficheros/solicitudes_100.csv", gestorCola);
 		System.out.println("Solicitudes aceptadas en el arranque: " + aceptadas);
 
 		// 5. Interfaz de consola interactiva
