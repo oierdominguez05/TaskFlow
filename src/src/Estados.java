@@ -1,7 +1,0 @@
-package src;
-
-public enum Estados {
-
-	PENDIENTE,EN_COLA,EJECUTANDO,COMPLETADO,FALLIDO,CANCELADO
-	
-}
