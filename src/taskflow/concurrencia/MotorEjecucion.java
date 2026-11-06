@@ -1,10 +1,11 @@
-package src;
+package taskflow.concurrencia;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
+
 import taskflow.modelo.TipoOperacion;
 import taskflow.modelo.Trabajo;
 import taskflow.procesadores.Procesadores;

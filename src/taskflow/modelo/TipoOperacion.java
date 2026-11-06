@@ -1,4 +1,4 @@
-package src;
+package taskflow.modelo;
 
 public enum TipoOperacion {
 
